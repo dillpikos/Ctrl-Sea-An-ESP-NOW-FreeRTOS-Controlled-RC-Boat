@@ -4,14 +4,19 @@
 
 # Technologies and Components
 ## Hardware Related
-- Arduino Nano
+
 - 
 ## Software Related
 - Arduino IDE
+- Fusion 360 (3D Modeling Boat shell, Propeller, and Rudder)
+- C++ (Libraries:
+- FREE RTOS
+- ESP-NOW (Send Data readings from controller to main esp)
 - 
 
 
 # System Features
+
 
 
 # System Preview
