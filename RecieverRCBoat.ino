@@ -79,9 +79,9 @@ void setup() {
   xTaskCreatePinnedToCore(
     readJoy,               //Function that's called
     "readJoy",             //Name of Task
-    4096,                   //Stack size (1024 good for smaller tasks)
+    4096,                   //Stack size (1024 good for smaller tasks, in this case 4096)
     NULL,                   //Parameter for function
-    24,                      //Task Priority 0-24 (0 lowest priority & 24 highest priority)
+    24,                      //Task Priority 0-24 (0 lowest priority & 24 highest priority )
     NULL,                   //Task handler
     app_cpu);       //run task on core selected at the top
   
