@@ -9,7 +9,7 @@ On the slave side FreeRTOS manages tasks for recieving transmitted data turning 
 
 # Technologies and Components
 ## Hardware Related
-- ESP-32
+- ESP-32 X 2
 - SG90 Servo Motor (steering control)
 - 1.5V-6V DC Motors (speed control)
 - Power bank (5000 MaH)
