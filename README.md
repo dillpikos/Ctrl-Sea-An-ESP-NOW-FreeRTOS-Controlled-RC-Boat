@@ -1,6 +1,6 @@
-# Portable Weather Station PCB Created With KiCAD 9
+# RC-Boat "Ctrl + Sea"
 
-*created by: Bryan Diaz | Focus: Embedded Systems, Hardware and PCB Design*
+*created by: Bryan Diaz & Junior Ortega | Focus: Embedded Systems, Wireless communication, Real time control system*
 
 # Technologies and Components
 ## Hardware Related
