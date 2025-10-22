@@ -16,8 +16,6 @@ On the slave side FreeRTOS manages tasks for recieving transmitted data turning 
 - Joystick Module (controller)
 - Soldering of throuhg hole components
 
-
-- 
 ## Software Related
 - Arduino IDE
 - Fusion 360 (3D Modeling Boat shell, Propeller, and Rudder)
