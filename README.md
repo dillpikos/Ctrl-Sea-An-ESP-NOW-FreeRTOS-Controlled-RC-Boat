@@ -1,9 +1,9 @@
 # RC-Boat "Ctrl + Sea"
-"Ctrl + Sea" is a wireless RC boat powered by ESP-32 microcontrollers communicating via ESP-NOW a peer to peer protocol. This project implements FreeRTOS on both the transmitter(master) and receiver(slave) to better handle concurent tasks that include, motor control, communication, and the steering of the vessel. This approach allows us to provide smooth-real time control via joystick.
+"Ctrl + Sea" is a wireless RC boat powered by ESP-32 microcontrollers communicating via ESP-NOW a peer to peer protocol. This project implements FreeRTOS on both the transmitter(master) and receiver(slave) to better handle concurrent tasks that include, motor control, communication, and the steering of the vessel. This approach allows us to provide smooth, real-time control via joystick.
 <br>
 
-On the master (transmitter) side  FreeRTOS manages tasks for joystick readings and processing to sucessfully transfer control to data to the reciever.<br>
-On the slave (receiver) side FreeRTOS manages tasks for recieving transmitted data turning it into motor output (speed control), servo output (vessel steering).
+On the master (transmitter) side, FreeRTOS manages tasks for joystick readings and processing to successfully transfer control to data to the reciever.<br>
+On the slave (receiver) side, FreeRTOS manages tasks for receiving transmitted data turning it into motor output (speed control), servo output (vessel steering).
 
 *created by: Bryan Diaz & Junior Ortega | Focus: Embedded Systems, Wireless communication, Real time control system*
 
@@ -26,7 +26,7 @@ On the slave (receiver) side FreeRTOS manages tasks for recieving transmitted da
 # System Features
 - Wireless communcation between boat and controller via ESP-NOW
 - Real-time task scheduling using FreeRTOS
-- Joystick controlled navigation
+- Joystick controlled thrust and rudder steer
 
 # System Preview
 
