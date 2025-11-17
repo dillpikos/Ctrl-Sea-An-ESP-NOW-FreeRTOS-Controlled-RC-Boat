@@ -29,6 +29,8 @@ On the slave (receiver) side, FreeRTOS manages tasks for receiving transmitted d
 - Joystick controlled thrust and rudder steer
 
 # System Preview
+<img src = "https://github.com/user-attachments/assets/f2634312-231c-433a-907a-b48d7a73e2e3" width = "550" height = "550"/> 
+<img src = "https://github.com/user-attachments/assets/f1c9924c-bdac-48ba-b3b4-989bdd321921" width = "550" height = "550"/> 
 
 
 
